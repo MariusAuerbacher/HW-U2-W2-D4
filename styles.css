@@ -1,0 +1,62 @@
+.card-img-top{
+  height: 30vh;
+}
+
+.jumbotron {
+  animation: fadein 3s;
+  background-image: url(https://media.istockphoto.com/id/1323542345/photo/audio-speaker-background-with-neon-lights.jpg?b=1&s=170667a&w=0&k=20&c=3bCcuYTfnveEU40V_WHMxq2t_CnbiSjgK50X9-eyEpA=);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.card-img-top{
+  position: relative;
+}
+
+.badge {
+ position: absolute;
+ left: 20px;
+ top: 2;
+ border-radius: 5%;
+}
+
+#posbtn {
+  position: relative;
+  
+} 
+
+.btn.btn-danger{
+
+  position: absolute;
+  right: 25px;
+  top: 56px;
+  
+  }
+
+
+#posbtn tbody tr:nth-child(odd){
+  background-color: #4C8BF5;
+}
+#posbtn tbody tr:nth-child(even){
+  background-color: coral;
+}
+
+
+
+
+
